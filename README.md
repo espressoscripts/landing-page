@@ -3,7 +3,7 @@
 Una Landing Page moderna para una marca de café de especialidad, diseñada desde cero utilizando **HTML5**, **CSS3** y **Flexbox**. Este proyecto es parte del currículo de [The Odin Project](https://www.theodinproject.com/).
 
 ## 🔗 Demo en vivo
-[Ver la página web aquí](LINK_DE_GITHUB_PAGES) 
+[Ver la página web aquí](https://espressoscripts.github.io/landing-page/) 
 ## ☕ Características
 - **Diseño Responsivo:** Uso extensivo de Flexbox para alinear elementos.
 - **Semántica HTML:** Estructura limpia y accesible.
