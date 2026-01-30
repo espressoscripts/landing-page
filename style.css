@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #F1EADA;
+    font-size: 18px;
+}
+.header-hero-container{
+    background-color: #584738;
+    color: #F1EADA;
+    padding: 16px 150px;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background-color: #D4A373; /* Un tono dorado/crema oscuro */
+    color: #2C1A1D; /* Texto oscuro para contraste */
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 16px; /* Separarlo del párrafo */
+    cursor: pointer; /* Manito al pasar el mouse */
+}
+
+.info-section{
+    padding: 48px 150px;
+}
+
+.info-title{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 36px;
+    color: #1F2937;;
+}
+
+.cards-container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.card{
+    width: 150px;
+    text-align: center;
+}
+
+.card-img-placeholder{
+   border: 4px solid #D4A373;
+   border-radius: 16px;
+   height: 150px;
+   margin-bottom: 10px;
+}
+
+.quote-section{
+    background-color: #E5E7EB
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic; /* Cursiva para que parezca cita */
+    font-weight: 300;   /* Letra ligera/fina */
+    color: #1F2937;
+    margin-bottom: 16px; /* Espacio antes del autor */
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end; /* TRUCO: Manda SOLO al autor a la derecha */
+    color: #1F2937;
+}
+
+/* EL CONTENEDOR EXTERNO (Espacio blanco) */
+.cta-section {
+    padding: 100px 150px;
+    background-color: white; /* Limpio para que resalte la caja */
+    display: flex;
+    justify-content: center; /* Centramos la caja café en medio de la pantalla */
+}
+
+/* LA CAJA FLOTANTE (El recuadro de color) */
+.cta-card {
+    background-color: #584738; /* El mismo café de tu marca */
+    color: #F1EADA;            /* Texto crema */
+    padding: 50px 100px;       /* Relleno generoso dentro de la caja */
+    border-radius: 16px;       /* Bordes redondeados modernos */
+    width: 100%;               /* Que ocupe el ancho disponible... */
+    max-width: 900px;          /* ...pero que no se estire demasiado en pantallas gigantes */
+    
+    /* LA MAGIA FLEX */
+    display: flex;
+    justify-content: space-between; /* Texto a la izquierda <---> Botón a la derecha */
+    align-items: center;            /* Alineados verticalmente */
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/* ESTILO DEL BOTÓN SECUNDARIO */
+.btn-cta {
+    background-color: transparent; /* Fondo transparente */
+    color: #F1EADA;                /* Texto claro */
+    border: 2px solid #F1EADA;     /* Borde elegante */
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Un efectito suave al pasar el mouse */
+}
+
+.btn-cta:hover {
+    background-color: #F1EADA; /* Al pasar el mouse, se rellena */
+    color: #584738;            /* Y el texto se oscurece */
+}
+
+/* EL FOOTER FINAL */
+.footer {
+    background-color: #2C1A1D; /* Un tono casi negro para cerrar */
+    color: #F1EADA;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
